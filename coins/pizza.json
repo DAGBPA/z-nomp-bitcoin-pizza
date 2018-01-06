@@ -1,0 +1,7 @@
+{
+    "name": "Bitcoin Pizza",
+    "symbol": "BPA",
+    "algorithm": "equihash",
+    "txfee": 0.000005
+}
+
