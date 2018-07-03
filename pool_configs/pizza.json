@@ -1,20 +1,20 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "pizza.json",
     
-    "address": "",
+    "address": "PKe1rpRpYTag16x7TqiuXvejUWRVsNah2J",
     "_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
     
-    "zAddress": "",
+    "zAddress": "PCbU3gwbFkVHdmAjDqBq2AMJ8oeh6AqtPc",
     "_comment_zAddress": "Not used",
     
-    "tAddress": "",
+    "tAddress": "PAgrS4i4HFo2w8tqQNDmbxm8DdCrYMzas9",
     "_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
     
     "walletInterval": 5,
     
     "rewardRecipients": {
-        "": 1.0
+        "PAgrS4i4HFo2w8tqQNDmbxm8DdCrYMzas9": 1.0
     },
     
     "tlsOptions": {
@@ -36,8 +36,8 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 8332,
-            "user": "username",
-            "password": "password"
+            "user": "alice",
+            "password": "HBss9bb6"
         }
     },
     
@@ -59,8 +59,8 @@
                 {
                 "host": "127.0.0.1",
                 "port": 8332,
-                "user": "rpcusername",
-                "password": "rpcpassword"
+                "user": "alice",
+                "password": "HBss9bb6"
                 }
                 ],
     
